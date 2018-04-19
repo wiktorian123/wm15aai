@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F58689E2088C39900D419F3 /* car0.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F58689D2088C39800D419F3 /* car0.png */; };
 		8FB6C3E32088B9CD00789827 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB6C3E22088B9CD00789827 /* AppDelegate.swift */; };
 		8FB6C3E52088B9CD00789827 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB6C3E42088B9CD00789827 /* ViewController.swift */; };
 		8FB6C3E82088B9CD00789827 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FB6C3E62088B9CD00789827 /* Main.storyboard */; };
@@ -14,6 +15,14 @@
 		8FB6C3ED2088B9CD00789827 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FB6C3EB2088B9CD00789827 /* LaunchScreen.storyboard */; };
 		8FB6C3F82088B9CD00789827 /* racingGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB6C3F72088B9CD00789827 /* racingGameTests.swift */; };
 		8FB6C4032088B9CD00789827 /* racingGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB6C4022088B9CD00789827 /* racingGameUITests.swift */; };
+		8FB6C4112088BE1B00789827 /* carDrag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB6C4102088BE1B00789827 /* carDrag.swift */; };
+		8FFFC5F52088F1A100013598 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 8FFFC5F42088F1A100013598 /* images */; };
+		8FFFC5FC2088F1B100013598 /* car1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FFFC5F62088F1B100013598 /* car1.png */; };
+		8FFFC5FD2088F1B100013598 /* car2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FFFC5F72088F1B100013598 /* car2.png */; };
+		8FFFC5FE2088F1B100013598 /* car3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FFFC5F82088F1B100013598 /* car3.png */; };
+		8FFFC5FF2088F1B100013598 /* car4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FFFC5F92088F1B100013598 /* car4.png */; };
+		8FFFC6002088F1B100013598 /* car5.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FFFC5FA2088F1B100013598 /* car5.png */; };
+		8FFFC6012088F1B100013598 /* car6.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FFFC5FB2088F1B100013598 /* car6.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F58689D2088C39800D419F3 /* car0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car0.png; path = Assets.xcassets/car0.imageset/car0.png; sourceTree = "<group>"; };
 		8FB6C3DF2088B9CD00789827 /* racingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = racingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FB6C3E22088B9CD00789827 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FB6C3E42088B9CD00789827 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,14 @@
 		8FB6C3FE2088B9CD00789827 /* racingGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = racingGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FB6C4022088B9CD00789827 /* racingGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = racingGameUITests.swift; sourceTree = "<group>"; };
 		8FB6C4042088B9CD00789827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FB6C4102088BE1B00789827 /* carDrag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = carDrag.swift; sourceTree = "<group>"; };
+		8FFFC5F42088F1A100013598 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		8FFFC5F62088F1B100013598 /* car1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car1.png; sourceTree = "<group>"; };
+		8FFFC5F72088F1B100013598 /* car2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car2.png; sourceTree = "<group>"; };
+		8FFFC5F82088F1B100013598 /* car3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car3.png; sourceTree = "<group>"; };
+		8FFFC5F92088F1B100013598 /* car4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car4.png; sourceTree = "<group>"; };
+		8FFFC5FA2088F1B100013598 /* car5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car5.png; sourceTree = "<group>"; };
+		8FFFC5FB2088F1B100013598 /* car6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car6.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +115,17 @@
 		8FB6C3E12088B9CD00789827 /* racingGame */ = {
 			isa = PBXGroup;
 			children = (
+				8FFFC5F62088F1B100013598 /* car1.png */,
+				8FFFC5F72088F1B100013598 /* car2.png */,
+				8FFFC5F82088F1B100013598 /* car3.png */,
+				8FFFC5F92088F1B100013598 /* car4.png */,
+				8FFFC5FA2088F1B100013598 /* car5.png */,
+				8FFFC5FB2088F1B100013598 /* car6.png */,
+				8FFFC5F42088F1A100013598 /* images */,
 				8FB6C3E22088B9CD00789827 /* AppDelegate.swift */,
 				8FB6C3E42088B9CD00789827 /* ViewController.swift */,
+				8FB6C4102088BE1B00789827 /* carDrag.swift */,
+				8F58689D2088C39800D419F3 /* car0.png */,
 				8FB6C3E62088B9CD00789827 /* Main.storyboard */,
 				8FB6C3E92088B9CD00789827 /* Assets.xcassets */,
 				8FB6C3EB2088B9CD00789827 /* LaunchScreen.storyboard */,
@@ -232,8 +259,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FFFC5F52088F1A100013598 /* images in Resources */,
 				8FB6C3ED2088B9CD00789827 /* LaunchScreen.storyboard in Resources */,
+				8FFFC5FF2088F1B100013598 /* car4.png in Resources */,
+				8FFFC5FD2088F1B100013598 /* car2.png in Resources */,
+				8FFFC5FC2088F1B100013598 /* car1.png in Resources */,
+				8FFFC5FE2088F1B100013598 /* car3.png in Resources */,
+				8FFFC6002088F1B100013598 /* car5.png in Resources */,
+				8F58689E2088C39900D419F3 /* car0.png in Resources */,
 				8FB6C3EA2088B9CD00789827 /* Assets.xcassets in Resources */,
+				8FFFC6012088F1B100013598 /* car6.png in Resources */,
 				8FB6C3E82088B9CD00789827 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FB6C4112088BE1B00789827 /* carDrag.swift in Sources */,
 				8FB6C3E52088B9CD00789827 /* ViewController.swift in Sources */,
 				8FB6C3E32088B9CD00789827 /* AppDelegate.swift in Sources */,
 			);
@@ -507,6 +543,7 @@
 				8FB6C4092088B9CD00789827 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FB6C40A2088B9CD00789827 /* Build configuration list for PBXNativeTarget "racingGameTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +552,7 @@
 				8FB6C40C2088B9CD00789827 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FB6C40D2088B9CD00789827 /* Build configuration list for PBXNativeTarget "racingGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +561,7 @@
 				8FB6C40F2088B9CD00789827 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
