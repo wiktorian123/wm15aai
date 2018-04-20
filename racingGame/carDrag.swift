@@ -8,8 +8,14 @@
 
 import UIKit
 
+
+
+var startPoint: CGPoint?
+
+
 class carDrag: UIImageView {
-    var startPoint: CGPoint?
+   
+    var dynamicItemBehaviour: UIDynamicItemBehavior!
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         startPoint = touches.first?.location(in:self)
@@ -23,7 +29,12 @@ class carDrag: UIImageView {
         let differenceY = currentPoint!.y - startPoint!.y
         
         self.center = CGPoint(x: self.center.x+differenceX,y: self.center.y+differenceY)
+        
+       
+        
+        
     
     }
+
     
 }
